@@ -1,12 +1,3 @@
-<!--
-CCTB College
-IST 107
-Introduction to Internet Programming and Web Applications!
-
-Quiz#2
-
-Instructor: Washington Valencia
--->
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +25,7 @@ Instructor: Washington Valencia
 	<link rel="shortcut icon" type="image/x-icon"
 		href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
 
-
+	
 </head>
 
 <body class="header-scroll-reveal">
@@ -149,9 +140,11 @@ Instructor: Washington Valencia
 
 									<a class="nav-link" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 										aria-expanded="false" id="mainNavHosting">
-										<h3>Quiz #2 - IST 107 - <span class="text-danger">{{Replace with your Full
+										<h3>Quiz #2 - IST 107 - <span class="text-danger" id="name-erlan">{{Replace with your Full
 												Name}}</span>
+												
 										</h3>
+										
 									</a>
 
 
@@ -177,7 +170,7 @@ Instructor: Washington Valencia
 									<i class="fi fi-users m-0-xs"></i>
 
 									<!-- hide text on mobile, keep the icon (space issue reason) -->
-									<span class="d-none d-lg-inline-block">Change my name</span>
+									<span class="d-none d-lg-inline-block" id="changeling">Change my name</span>
 								</a>
 							</li>
 
@@ -221,8 +214,8 @@ Instructor: Washington Valencia
 							</p><br><br>
 
 							<div class="mt-15 text-muted">
-								<h2>{{Replace with current date}} </h2>
-								<h2>{{Replace with your email}} </h2>
+								<h2 id="date-now">{{Replace with current date}} </h2>
+								<h2 id="email-erlan">{{Replace with your email}} </h2>
 							</div>
 
 						</div>
@@ -529,8 +522,6 @@ Instructor: Washington Valencia
 	<!-- /block : services -->
 	</div><!-- /#wrapper -->
 	<script src="assets/js/core.min.js"></script>
-
-
 </body>
 
 </html>
